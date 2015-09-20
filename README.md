@@ -18,6 +18,6 @@ From there, run **ionic build android** or **ionic build ios** to build the proj
 - **platforms/android/build** for Android
 - **platforms/ios/build** for iOS
 
-Android developers can use the command **ionic run android** to run the project on an emulator or Android device with USB debugging enabled.
+Android developers can use the command **ionic run android**. to run the project on an emulator or Android device with USB debugging enabled.
 
 iOS users will have to open the Xcode project generated when building the project to then run it on an emulator or iOS device.
