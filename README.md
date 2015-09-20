@@ -11,18 +11,12 @@ To get started, first follow [our install guide](https://docs.google.com/documen
 
 After installing all necessary dependencies and cloning the repo, run:
 
-**ionic platform add android** to add the Android platform to the project
-
-OR
-
-**ionic platform add ios** to add the iOS platform to the project
+- **ionic platform add android** to add the Android platform to the project
+- **ionic platform add ios** to add the iOS platform to the project
 
 From there, run **ionic build android** or **ionic build ios** to build the project. Outputs will be stored undern:
-**platforms/android/build** for Android
-
-OR
-
-**platforms/ios/build** for iOS
+- **platforms/android/build** for Android
+- **platforms/ios/build** for iOS
 
 Android developers can use the command **ionic run android** to run the project on an emulator or Android device with USB debugging enabled.
 
