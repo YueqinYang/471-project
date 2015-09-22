@@ -26,8 +26,8 @@
     
     return service;
     
-    // To keep it simple, this service only return a single function that finds
-    // the best-rated movie in a list of movies.
+    // To keep it simple, this service only returns a single function that
+    // finds the best-rated movie in a list of movies.
     function getBestMovie(movies) {
       
       var bestMovie = movies[0];
