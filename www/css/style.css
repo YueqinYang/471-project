@@ -1,1 +1,16 @@
-/* Empty. Add your own CSS if you like */
+/* This is where we add any custom CSS we need */
+
+.full-screen-wrapper {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.separator {
+  border: 0;
+  box-shadow: inset 0 13px 13px -13px rgba(0, 0, 0, 0.5);
+  height: 12px;
+  margin-top: 0px;
+}

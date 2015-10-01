@@ -10,26 +10,9 @@
     // module.
     .module('app', [
       // List all of the app's dependencies
-      'example',
+      'app.home',
       'ionic'
     ])
-    
-    // In this example, the module config establishes what states (or pages)
-    // exist within this module.
-    .config(function($stateProvider, $urlRouterProvider) {
-      
-      $stateProvider
-      
-        .state('example', {
-          controller: 'ExampleCtrl as vm',
-          templateUrl: 'app/example/example.tpl.html',
-          url: '/example'
-        })
-        
-      // If none of the above states are matched, use this as the fallback.
-      $urlRouterProvider.otherwise('/example');
-      
-    })
     
     // This establishes a few settings for Ionic
     .run(function($ionicPlatform) {
